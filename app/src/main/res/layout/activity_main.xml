@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ricahrd.translateanimation.MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="#22aaee" >
+
+        <ImageView
+            android:id="@+id/iv_login_moon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_moon" />
+
+        <ImageView
+            android:id="@+id/iv_login_build03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_build03" />
+
+        <ImageView
+            android:id="@+id/iv_login_build01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_build01" />
+
+        <ImageView
+            android:id="@+id/iv_login_build02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_build02" />
+
+        <ImageView
+            android:id="@+id/iv_login_tree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_tree" />
+
+        <ImageView
+            android:id="@+id/iv_login_tree01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_tree" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/iv_login_build01"
+            android:layout_marginLeft="46dp"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_car_01" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_login_tree"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="59dp"
+            android:contentDescription="@null"
+            android:src="@drawable/bm_login_bg_car_02" />
+
+        <ImageView
+            android:id="@+id/iv_login_packeg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:src="@drawable/bm_login_packeg" />
+
+        <ImageView
+            android:id="@+id/iv_login_packeg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignTop="@+id/imageView2"
+            android:src="@drawable/bm_login_packeg" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
